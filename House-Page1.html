@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertyMan - Property Gallery</title>
+    <link rel="stylesheet" href="SampleStyle.css">
+    <link rel="stylesheet" href="h1Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="heading">
+            <div class="logo-container">
+                <a href="#">
+                    <img src="ProjectImages/WhatsApp Image 2025-04-19 at 18.52.59_d69f62f7.jpg" alt="PropertyMan Logo" class="site-logo">
+                </a>
+                <label for="comlabel" id="comlabel">PROPERTYMAN</label>
+            </div>
+            <nav>
+                <input type="checkbox" id="menutoggle">
+                <label for="menutoggle" class="menubtn">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="close-icon"></span>
+
+                </label>
+                <ul class="navlinks">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Rent.html">RENT</a></li>
+                    <li><a href="Sell.html">SELL</a></li>
+                    <li><a href="FAA.html">FIND AN AGENT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 1</h2>
+            <div class="main-image-container">
+                <img id="mainImage1" src="ProjectImages/h6/IMG-20250501-WA0034.jpg" alt="Apartment view">
+                <button class="nav-btn" id="prevBtn">&lt;</button>
+                <button class="nav-btn" id="nextBtn">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h6/IMG-20250501-WA0034.jpg" alt="Main Apartment view" class="thumbnail active1" data-index="0">
+                <img src="ProjectImages/h6/IMG-20250501-WA0030.jpg" alt="Apartment view 1" class="thumbnail" data-index="1">
+                <img src="ProjectImages/h6/IMG-20250501-WA0031.jpg" alt="Apartment view 2" class="thumbnail" data-index="2">
+                <img src="ProjectImages/h6/IMG-20250501-WA0032.jpg" alt="Apartment view 3" class="thumbnail" data-index="3">
+                <img src="ProjectImages/h6/IMG-20250501-WA0033.jpg" alt="Apartment view 4" class="thumbnail" data-index="4">
+                <img src="ProjectImages/h6/IMG-20250501-WA0035.jpg" alt="Apartment view 5" class="thumbnail" data-index="5">
+                <img src="ProjectImages/h6/IMG-20250501-WA0036.jpg" alt="Apartment view 6" class="thumbnail" data-index="6">
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-bed feature-icon"></i> 3 bedroom en suite</li>
+                    <li><i class="fas fa-utensils feature-icon"></i> Fitted kitchen with burner, extractor and oven</li>
+                    <li><i class="fas fa-wardrobe feature-icon"></i> Fitted wardrobes</li>
+                    <li><i class="fas fa-kitchen-set feature-icon"></i> Kitchenette</li>
+                    <li><i class="fas fa-water feature-icon"></i> Water heater</li>
+                    <li><i class="fas fa-droplet feature-icon"></i> Poly tank</li>
+                    <li><i class="fas fa-bell feature-icon"></i> Door bell</li>
+                    <li><i class="fas fa-camera feature-icon"></i> Wiring for security cams</li>
+                    <li><i class="fas fa-bolt feature-icon"></i> Electric fence</li>
+                    <li><i class="fas fa-tv feature-icon"></i> Wiring for TV cable</li>
+                    <li><i class="fas fa-lightbulb feature-icon"></i> Electrical fixtures and lighting features</li>
+                    <li><i class="fas fa-plug feature-icon"></i> Water and electricity supply from municipal</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 2</h2>
+            <div class="main-image-container">
+                <img id="mainImage2" src="ProjectImages/h4/IMG-20250501-WA0015.jpg" alt="Main Apartment view">
+                <button class="nav-btn2" id="prevBtn2">&lt;</button>
+                <button class="nav-btn2" id="nextBtn2">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h4/IMG-20250501-WA0015.jpg" alt="Main Apartment view" class="thumbnail2 active2" data-index2="0">
+                <img src="ProjectImages/h4/IMG-20250501-WA0007.jpg" alt="Apartment view 1" class="thumbnail2" data-index2="1">
+                <img src="ProjectImages/h4/IMG-20250501-WA0008.jpg" alt="Apartment view 2" class="thumbnail2" data-index2="2">
+                <img src="ProjectImages/h4/IMG-20250501-WA0009.jpg" alt="Apartment view 3" class="thumbnail2" data-index2="3">
+                <img src="ProjectImages/h4/IMG-20250501-WA0010.jpg" alt="Apartment view 4" class="thumbnail2" data-index2="4">
+                <img src="ProjectImages/h4/IMG-20250501-WA0011.jpg" alt="Apartment view 5" class="thumbnail2" data-index2="5">
+                <img src="ProjectImages/h4/IMG-20250501-WA0012.jpg" alt="Apartment view 6" class="thumbnail2" data-index2="6">
+                <img src="ProjectImages/h4/IMG-20250501-WA0013.jpg" alt="Apartment view 7" class="thumbnail2" data-index2="7">
+                <img src="ProjectImages/h4/IMG-20250501-WA0014.jpg" alt="Apartment view 8" class="thumbnail2" data-index2="8">
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-bed feature-icon"></i> 3 bedroom house</li>
+                    <li><i class="fas fa-toilet feature-icon"></i> Visitors washroom</li>
+                    <li><i class="fas fa-snowflake feature-icon"></i> Air conditioning (ACs)</li>
+                    <li><i class="fas fa-map-marker-alt feature-icon"></i> Location: Lakeside</li>
+                    <li><i class="fas fa-ruler-combined feature-icon"></i> Land size: 50ft by 35ft</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 3</h2>
+            <div class="main-image-container">
+                <img id="mainImage3" src="ProjectImages/h5/IMG-20250501-WA0016.jpg" alt="Apartment view">
+                <button class="nav-btn3" id="prevBtn3">&lt;</button>
+                <button class="nav-btn3" id="nextBtn3">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h5/IMG-20250501-WA0016.jpg" alt="Main apartment view" class="thumbnail3 active3" data-index3="0">
+                <img src="ProjectImages/h5/IMG-20250501-WA0020.jpg" alt="Apartment view 1" class="thumbnail3" data-index3="1">
+                <img src="ProjectImages/h5/IMG-20250501-WA0021.jpg" alt="Apartment view 2" class="thumbnail3" data-index3="3">
+                <img src="ProjectImages/h5/IMG-20250501-WA0022.jpg" alt="Apartment view 3" class="thumbnail3" data-index3="4">
+                <img src="ProjectImages/h5/IMG-20250501-WA0023.jpg" alt="Apartment view 4" class="thumbnail3" data-index3="5">
+                <img src="ProjectImages/h5/IMG-20250501-WA0024.jpg" alt="Apartment view 5" class="thumbnail3" data-index3="6">
+                <img src="ProjectImages/h5/IMG-20250501-WA0025.jpg" alt="Apartment view 6" class="thumbnail3" data-index3="7">
+                <img src="ProjectImages/h5/IMG-20250501-WA0026.jpg" alt="Apartment view 7" class="thumbnail3" data-index3="8">
+                <img src="ProjectImages/h5/IMG-20250501-WA0028.jpg" alt="Apartment view 8" class="thumbnail3" data-index3="9">
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-bed feature-icon"></i> 4 Bedroom duplex</li>
+                    <li><i class="fas fa-shield-alt feature-icon"></i> 24/7 security</li>
+                    <li><i class="fas fa-map-marker-alt feature-icon"></i> Location: Spintex Costal Down</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 4</h2>
+            <div class="main-image-container">
+                <img id="mainImage4" src="ProjectImages/h1/IMG-20250419-WA0006.jpg" alt="Apartment view">
+                <button class="nav-btn4" id="prevBtn4">&lt;</button>
+                <button class="nav-btn4" id="nextBtn4">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h1/IMG-20250419-WA0006.jpg" alt="Main apartment view" class="thumbnail4 active4" data-index4="0">
+                <img src="ProjectImages/h1/IMG-20250419-WA0001.jpg" alt="Apartment view 1" class="thumbnail4" data-index3="1">
+                <img src="ProjectImages/h1/IMG-20250419-WA0007.jpg" alt="Apartment view 2" class="thumbnail4" data-index3="2">
+                <img src="ProjectImages/h1/IMG-20250430-WA0001.jpg" alt="Apartment view 3" class="thumbnail4" data-index3="3">
+                <img src="ProjectImages/h1/IMG-20250430-WA0002.jpg" alt="Apartment view 4" class="thumbnail4" data-index3="4">
+                <img src="ProjectImages/h1/IMG-20250430-WA0004.jpg" alt="Apartment view 5" class="thumbnail4" data-index3="5">
+                <img src="ProjectImages/h1/IMG-20250430-WA0005.jpg" alt="Apartment view 6" class="thumbnail4" data-index3="6">
+                <img src="ProjectImages/h1/IMG-20250430-WA0006.jpg" alt="Apartment view 7" class="thumbnail4" data-index3="7">
+                <img src="ProjectImages/h1/IMG-20250430-WA0007.jpg" alt="Apartment view 8" class="thumbnail4" data-index3="8">
+                
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-bed feature-icon"></i> 3 Bedroom</li>
+                    <li><i class="fas fa-car feature-icon"></i> Car park for 1</li>
+                    <li><i class="fas fa-toilet feature-icon"></i> Visitors washroom</li>
+                    <li><i class="fas fa-shield-alt feature-icon"></i> 24/7 security</li>
+                    <li><i class="fas fa-home feature-icon"></i> Open to mortgage</li>
+                    <li><i class="fas fa-calendar-check feature-icon"></i> Flexible payment plan</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="pagination">
+        <a href="javascript:void(0)">&laquo;</a>
+        <a href="House-Page1.html" style="background-color: #ff8c00; color: #fff;">1</a>
+        <a href="House-Page2.html">2</a>
+        <a href="House-Page3.html">3</a>
+        <a href="House-Page2.html">&raquo;</a>
+    </div>
+    
+    
+
+
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section Psearches">
+                <h3>Popular Searches</h3>
+                <ul>
+                    <li><a href="/homes-accra">Homes in Accra</a></li>
+                    <li><a href="/affordable-apartments">Affordable Apartments</a></li>
+                    <li><a href="/commercial-spaces">Commercial Spaces</a></li>
+                    <li><a href="/rent-to-own">Rent-to-Own Properties</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Site Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="index.html#contactUS">Contact Us</a></li>
+                    <li><a href="Ppolicy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    <li><i class="fas fa-phone"></i> +233 257 775 010</li>
+                    <li><i class="fas fa-envelope"></i> propertyman1.gh@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 propertyman. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61566902734439"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/PropertymanGh"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/propertyman.gh?igsh=ZjI0Nm9iMzdxb2I3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@propertyman.gh?_t=ZM-8w51zaoLRvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/message/4G6RX3BDNODMD1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://youtube.com/@propertyman_gh?si=qEYj-RWyq0vaZgsV"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mainImage1 = document.getElementById('mainImage1');
+                const thumbnails = document.querySelectorAll('.thumbnail');
+                const prevBtn = document.getElementById('prevBtn');
+                const nextBtn = document.getElementById('nextBtn');
+                
+                let currentIndex = 0;
+                const images = Array.from(thumbnails).map(thumb => thumb.src);
+                
+                // Initialize with first image
+                updateMainImage1(currentIndex);
+                
+                // Thumbnail click event
+                thumbnails.forEach(thumb => {
+                    thumb.addEventListener('click', function() {
+                        currentIndex = parseInt(this.getAttribute('data-index'));
+                        updateMainImage1(currentIndex);
+                    });
+                });
+                
+                // Previous button click event
+                prevBtn.addEventListener('click', function() {
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    updateMainImage1(currentIndex);
+                });
+                
+                // Next button click event
+                nextBtn.addEventListener('click', function() {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    updateMainImage1(currentIndex);
+                });
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'ArrowLeft') {
+                        prevBtn.click();
+                    } else if (e.key === 'ArrowRight') {
+                        nextBtn.click();
+                    }
+                });
+                
+                // Update main image and active thumbnail
+                function updateMainImage1(index) {
+                    mainImage1.src = images[index];
+                    
+                    // Update active thumbnail
+                    thumbnails.forEach(thumb => {
+                        thumb.classList.remove('active1');
+                        if (parseInt(thumb.getAttribute('data-index')) === index) {
+                            thumb.classList.add('active1');
+                        }
+                    });
+                }
+            });
+
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const mainImage2 = document.getElementById('mainImage2');
+                const thumbnails2 = document.querySelectorAll('.thumbnail2');
+                const prevBtn2 = document.getElementById('prevBtn2');
+                const nextBtn2 = document.getElementById('nextBtn2');
+                
+                let currentIndex = 0;
+                const images = Array.from(thumbnails2).map(thumb => thumb.src);
+                
+                // Initialize with first image
+                updateMainImage2(currentIndex);
+                
+                // Thumbnail click event
+                thumbnails2.forEach(thumb => {
+                    thumb.addEventListener('click', function() {
+                        currentIndex = parseInt(this.getAttribute('data-index2'));
+                        updateMainImage2(currentIndex);
+                    });
+                });
+                
+                // Previous button click event
+                prevBtn2.addEventListener('click', function() {
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    updateMainImage2(currentIndex);
+                });
+                
+                // Next button click event
+                nextBtn2.addEventListener('click', function() {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    updateMainImage2(currentIndex);
+                });
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'ArrowLeft') {
+                        prevBtn2.click();
+                    } else if (e.key === 'ArrowRight') {
+                        nextBtn2.click();
+                    }
+                });
+                
+                // Update main image and active thumbnail
+                function updateMainImage2(index) {
+                    mainImage2.src = images[index];
+                    
+                    // Update active thumbnail
+                    thumbnails2.forEach(thumb => {
+                        thumb.classList.remove('active2');
+                        if (parseInt(thumb.getAttribute('data-index2')) === index) {
+                            thumb.classList.add('active2');
+                        }
+                    });
+                }
+            });
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const mainImage3 = document.getElementById('mainImage3');
+                const thumbnails3 = document.querySelectorAll('.thumbnail3');
+                const prevBtn3 = document.getElementById('prevBtn3');
+                const nextBtn3 = document.getElementById('nextBtn3');
+                
+                let currentIndex = 0;
+                const images = Array.from(thumbnails3).map(thumb => thumb.src);
+                
+                // Initialize with first image
+                updateMainImage3(currentIndex);
+                
+                // Thumbnail click event
+                thumbnails3.forEach(thumb => {
+                    thumb.addEventListener('click', function() {
+                        currentIndex = parseInt(this.getAttribute('data-index3'));
+                        updateMainImage3(currentIndex);
+                    });
+                });
+                
+                // Previous button click event
+                prevBtn3.addEventListener('click', function() {
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    updateMainImage3(currentIndex);
+                });
+                
+                // Next button click event
+                nextBtn3.addEventListener('click', function() {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    updateMainImage3(currentIndex);
+                });
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'ArrowLeft') {
+                        prevBtn3.click();
+                    } else if (e.key === 'ArrowRight') {
+                        nextBtn3.click();
+                    }
+                });
+                
+                // Update main image and active thumbnail
+                function updateMainImage3(index) {
+                    mainImage3.src = images[index];
+                    
+                    // Update active thumbnail
+                    thumbnails3.forEach(thumb => {
+                        thumb.classList.remove('active3');
+                        if (parseInt(thumb.getAttribute('data-index3')) === index) {
+                            thumb.classList.add('active3');
+                        }
+                    });
+                }
+            });
+
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const mainImage4 = document.getElementById('mainImage4');
+                const thumbnails4 = document.querySelectorAll('.thumbnail4');
+                const prevBtn4 = document.getElementById('prevBtn4');
+                const nextBtn4 = document.getElementById('nextBtn4');
+                
+                let currentIndex = 0;
+                const images = Array.from(thumbnails4).map(thumb => thumb.src);
+                
+                // Initialize with first image
+                updateMainImage4(currentIndex);
+                
+                // Thumbnail click event
+                thumbnails4.forEach(thumb => {
+                    thumb.addEventListener('click', function() {
+                        currentIndex = parseInt(this.getAttribute('data-index2'));
+                        updateMainImage4(currentIndex);
+                    });
+                });
+                
+                // Previous button click event
+                prevBtn4.addEventListener('click', function() {
+                    currentIndex = (currentIndex - 1 + images.length) % images.length;
+                    updateMainImage4(currentIndex);
+                });
+                
+                // Next button click event
+                nextBtn4.addEventListener('click', function() {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    updateMainImage4(currentIndex);
+                });
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'ArrowLeft') {
+                        prevBtn4.click();
+                    } else if (e.key === 'ArrowRight') {
+                        nextBtn4.click();
+                    }
+                });
+                
+                // Update main image and active thumbnail
+                function updateMainImage4(index) {
+                    mainImage4.src = images[index];
+                    
+                    // Update active thumbnail
+                    thumbnails4.forEach(thumb => {
+                        thumb.classList.remove('active4');
+                        if (parseInt(thumb.getAttribute('data-index4')) === index) {
+                            thumb.classList.add('active4');
+                        }
+                    });
+                }
+            });
+    </script>
+</body>
+</html>

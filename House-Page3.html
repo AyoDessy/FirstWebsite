@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertyMan - Property Gallery</title>
+    <link rel="stylesheet" href="SampleStyle.css">
+    <link rel="stylesheet" href="h1Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="heading">
+            <div class="logo-container">
+                <a href="#">
+                    <img src="ProjectImages/WhatsApp Image 2025-04-19 at 18.52.59_d69f62f7.jpg" alt="PropertyMan Logo" class="site-logo">
+                </a>
+                <label for="comlabel" id="comlabel">PROPERTYMAN</label>
+            </div>
+            <nav>
+                <input type="checkbox" id="menutoggle">
+                <label for="menutoggle" class="menubtn">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="close-icon"></span>
+
+                </label>
+                <ul class="navlinks">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Rent.html">RENT</a></li>
+                    <li><a href="Sell.html">SELL</a></li>
+                    <li><a href="FAA.html">FIND AN AGENT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 9</h2>
+            <div class="main-image-container">
+                <img id="mainImage9" src="ProjectImages/h9/IMG-20250502-WA0034.jpg" alt="Apartment view">
+                <button class="nav-btn9" id="prevBtn9">&lt;</button>
+                <button class="nav-btn9" id="nextBtn9">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h9/IMG-20250502-WA0034.jpg" alt="Main apartment view" class="thumbnail9 active9"  data-index9="0">
+                <img src="ProjectImages/h9/IMG-20250502-WA0027.jpg" alt="Apartment view 1" class="thumbnail9" data-index9="1">
+                <img src="ProjectImages/h9/IMG-20250502-WA0028.jpg" alt="Apartment view 2" class="thumbnail9" data-index9="2">
+                <img src="ProjectImages/h9/IMG-20250502-WA0029.jpg" alt="Apartment view 3" class="thumbnail9" data-index9="3">
+                <img src="ProjectImages/h9/IMG-20250502-WA0030.jpg" alt="Apartment view 4" class="thumbnail9" data-index9="4">
+                <img src="ProjectImages/h9/IMG-20250502-WA0031.jpg" alt="Apartment view 5" class="thumbnail9" data-index9="5">
+                <img src="ProjectImages/h9/IMG-20250502-WA0032.jpg" alt="Apartment view 6" class="thumbnail9" data-index9="6">
+                <img src="ProjectImages/h9/IMG-20250502-WA0033.jpg" alt="Apartment view 7" class="thumbnail9" data-index9="7">
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-bed feature-icon"></i> 4 Bedrooms all ensuite</li>
+                    <li><i class="fas fa-toilet feature-icon"></i> Guest washroom + downstairs bedroom washroom</li>
+                    <li><i class="fas fa-utensils feature-icon"></i> Fully fitted kitchen with appliances (stove, microwave, oven, refrigerator)</li>
+                    <li><i class="fas fa-box feature-icon"></i> Spacious kitchen with additional store room</li>
+                    <li><i class="fas fa-couch feature-icon"></i> Dining area + family area upstairs</li>
+                    <li><i class="fas fa-king feature-icon"></i> Master bedroom with ensuite, walk-in closet, and terrace</li>
+                    <li><i class="fas fa-bed feature-icon"></i> 2 Additional spacious ensuite bedrooms (1 with balcony)</li>
+                    <li><i class="fas fa-car feature-icon"></i> Spacious compound parks for SUVs</li>
+                    <li><i class="fas fa-palette feature-icon"></i> Artwork throughout the house</li>
+                    <li><i class="fas fa-robot feature-icon"></i> Automated remote gate</li>
+                    <li><i class="fas fa-map-marked-alt feature-icon"></i> Second plot off main road (prime location)</li>
+                    <li><i class="fas fa-file-contract feature-icon"></i> Land title documentation available</li>
+                    <li><i class="fas fa-home feature-icon"></i> Mortgage options available</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <main class="property-container">
+        <div class="gallery-container">
+            <h2 class="gallery-title">Apartment 10</h2>
+            <div class="main-image-container">
+                <img id="mainImage10" src="ProjectImages/h10/IMG-20250502-WA0049.jpg" alt="Apartment view">
+                <button class="nav-btn10" id="prevBtn10">&lt;</button>
+                <button class="nav-btn10" id="nextBtn10">&gt;</button>
+            </div>
+            <div class="thumbnail-grid">
+                <img src="ProjectImages/h10/IMG-20250502-WA0049.jpg" alt="Main apartment view" class="thumbnail10 active10" data-index10="0">
+                <img src="ProjectImages/h10/IMG-20250502-WA0035.jpg" alt="Apartment view 1" class="thumbnail10" data-index10="1">
+                <img src="ProjectImages/h10/IMG-20250502-WA0037.jpg" alt="Apartment view 2" class="thumbnail10" data-index10="2">
+                <img src="ProjectImages/h10/IMG-20250502-WA0038.jpg" alt="Apartment view 3" class="thumbnail10" data-index10="3">
+                <img src="ProjectImages/h10/IMG-20250502-WA0039.jpg" alt="Apartment view 4" class="thumbnail10" data-index10="4">
+                <img src="ProjectImages/h10/IMG-20250502-WA0040.jpg" alt="Apartment view 5" class="thumbnail10" data-index10="5">
+                <img src="ProjectImages/h10/IMG-20250502-WA0041.jpg" alt="Apartment view 6" class="thumbnail10" data-index10="6">
+                <img src="ProjectImages/h10/IMG-20250502-WA0042.jpg" alt="Apartment view 7" class="thumbnail10" data-index10="7">
+                <img src="ProjectImages/h10/IMG-20250502-WA0043.jpg" alt="Apartment view 8" class="thumbnail10" data-index10="8">
+                <img src="ProjectImages/h10/IMG-20250502-WA0044.jpg" alt="Apartment view 9" class="thumbnail10" data-index10="9">
+                <img src="ProjectImages/h10/IMG-20250502-WA0045.jpg" alt="Apartment view 10" class="thumbnail10" data-index10="10">
+                <img src="ProjectImages/h10/IMG-20250502-WA0046.jpg" alt="Apartment view 11" class="thumbnail10" data-index10="11">
+                <img src="ProjectImages/h10/IMG-20250502-WA0047.jpg" alt="Apartment view 12" class="thumbnail10" data-index10="12">
+                <img src="ProjectImages/h10/IMG-20250502-WA0048.jpg" alt="Apartment view 13" class="thumbnail10" data-index10="13">
+                <img src="ProjectImages/h10/IMG-20250502-WA0050.jpg" alt="Apartment view 14" class="thumbnail10" data-index10="14">
+            </div>
+        </div>
+
+        <div class="property-details">
+            <div class="property-features">
+                <h3>Property Features</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-crown feature-icon"></i> Luxury 5-Bedroom Mansion in Trasacco Estates</li>
+                    <li><i class="fas fa-bed feature-icon"></i> 5 Master Bedrooms (all en-suite)</li>
+                    <li><i class="fas fa-spa feature-icon"></i> Lavish master suite with walk-in closet & spa bathroom</li>
+                    <li><i class="fas fa-door-open feature-icon"></i> Expansive living & dining areas (open-plan)</li>
+                    <li><i class="fas fa-utensils feature-icon"></i> Gourmet kitchen with premium appliances</li>
+                    <li><i class="fas fa-swimming-pool feature-icon"></i> Private swimming pool & lush garden</li>
+                    <li><i class="fas fa-home feature-icon"></i> Two self-contained boys' quarters</li>
+                    <li><i class="fas fa-solar-panel feature-icon"></i> Solar/Inverter backup power system</li>
+                    <li><i class="fas fa-snowflake feature-icon"></i> Central air conditioning & water heating</li>
+                    <li><i class="fas fa-shield-alt feature-icon"></i> 24/7 security & gated community</li>
+                    <li><i class="fas fa-car feature-icon"></i> Spacious garage + ample visitor parking</li>
+                </ul>
+            </div>
+            
+            <div class="location-features">
+                <h3>Location Highlights</h3>
+                <ul class="features-list">
+                    <li><i class="fas fa-map-marker-alt feature-icon"></i> Accra's premier residential enclave</li>
+                    <li><i class="fas fa-plane feature-icon"></i> 10-min to Airport City</li>
+                    <li><i class="fas fa-graduation-cap feature-icon"></i> Near international schools (GIS, Lincoln)</li>
+                    <li><i class="fas fa-shopping-bag feature-icon"></i> Close to malls (Accra Mall, Marina Mall)</li>
+                    <li><i class="fas fa-hospital feature-icon"></i> Premium healthcare facilities nearby</li>
+                </ul>
+            </div>
+
+            <div class="property-location">
+                <h3>Location</h3>
+                <div class="map-container">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755238754239!2d-0.186785684734143!3d5.603822995932352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuOCJOIDDCsDExJzA3LjgiVw!5e0!3m2!1sen!2sgh!4v1620000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location-details">
+                    <p>Located near <span class="highlight">China Mall</span>, just off the <span class="highlight">main road</span>.</p>
+                    <p>Approximately <span class="highlight">25 minutes</span> to Kotoka International Airport.</p>
+                    <p>Prime location with easy access to amenities and transportation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="pagination">
+        <a href="House-Page2.html">&laquo;</a>
+        <a href="House-Page1.html">1</a>
+        <a href="House-Page2.html">2</a>
+        <a href="House-Page3.html" style="background-color: #ff8c00; color: #fff;">3</a>
+        <a href="javascript:void(0)">&raquo;</a>
+    </div>
+    
+    
+
+
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section Psearches">
+                <h3>Popular Searches</h3>
+                <ul>
+                    <li><a href="/homes-accra">Homes in Accra</a></li>
+                    <li><a href="/affordable-apartments">Affordable Apartments</a></li>
+                    <li><a href="/commercial-spaces">Commercial Spaces</a></li>
+                    <li><a href="/rent-to-own">Rent-to-Own Properties</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Site Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="index.html#contactUS">Contact Us</a></li>
+                    <li><a href="Ppolicy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    <li><i class="fas fa-phone"></i> +233 257 775 010</li>
+                    <li><i class="fas fa-envelope"></i> propertyman1.gh@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 propertyman. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61566902734439"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/PropertymanGh"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/propertyman.gh?igsh=ZjI0Nm9iMzdxb2I3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@propertyman.gh?_t=ZM-8w51zaoLRvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/message/4G6RX3BDNODMD1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://youtube.com/@propertyman_gh?si=qEYj-RWyq0vaZgsV"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const mainImage9 = document.getElementById('mainImage9');
+            const thumbnails9 = document.querySelectorAll('.thumbnail9');
+            const prevBtn9 = document.getElementById('prevBtn9');
+            const nextBtn9 = document.getElementById('nextBtn9');
+            
+            let currentIndex = 0;
+            const images = Array.from(thumbnails9).map(thumb => thumb.src);
+            
+            // Initialize with first image
+            updateMainImage9(currentIndex);
+            
+            // Thumbnail click event
+            thumbnails9.forEach(thumb => {
+                thumb.addEventListener('click', function() {
+                    currentIndex = parseInt(this.getAttribute('data-index9'));
+                    updateMainImage9(currentIndex);
+                });
+            });
+            
+            // Previous button click event
+            prevBtn9.addEventListener('click', function() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateMainImage9(currentIndex);
+            });
+            
+            // Next button click event
+            nextBtn9.addEventListener('click', function() {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateMainImage9(currentIndex);
+            });
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowLeft') {
+                    prevBtn9.click();
+                } else if (e.key === 'ArrowRight') {
+                    nextBtn9.click();
+                }
+            });
+            
+            // Update main image and active thumbnail
+            function updateMainImage9(index) {
+                mainImage9.src = images[index];
+                
+                // Update active thumbnail
+                thumbnails9.forEach(thumb => {
+                    thumb.classList.remove('active9');
+                    if (parseInt(thumb.getAttribute('data-index9')) === index) {
+                        thumb.classList.add('active9');
+                    }
+                });
+            }
+        });
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mainImage10 = document.getElementById('mainImage10');
+            const thumbnails10 = document.querySelectorAll('.thumbnail10');
+            const prevBtn10 = document.getElementById('prevBtn10');
+            const nextBtn10 = document.getElementById('nextBtn10');
+            
+            let currentIndex = 0;
+            const images = Array.from(thumbnails10).map(thumb => thumb.src);
+            
+            // Initialize with first image
+            updateMainImage10(currentIndex);
+            
+            // Thumbnail click event
+            thumbnails10.forEach(thumb => {
+                thumb.addEventListener('click', function() {
+                    currentIndex = parseInt(this.getAttribute('data-index10'));
+                    updateMainImage10(currentIndex);
+                });
+            });
+            
+            // Previous button click event
+            prevBtn10.addEventListener('click', function() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateMainImage10(currentIndex);
+            });
+            
+            // Next button click event
+            nextBtn10.addEventListener('click', function() {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateMainImage10(currentIndex);
+            });
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowLeft') {
+                    prevBtn10.click();
+                } else if (e.key === 'ArrowRight') {
+                    nextBtn10.click();
+                }
+            });
+            
+            // Update main image and active thumbnail
+            function updateMainImage10(index) {
+                mainImage10.src = images[index];
+                
+                // Update active thumbnail
+                thumbnails10.forEach(thumb => {
+                    thumb.classList.remove('active10');
+                    if (parseInt(thumb.getAttribute('data-index10')) === index) {
+                        thumb.classList.add('active10');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

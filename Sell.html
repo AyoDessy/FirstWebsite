@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PropertyMan - Sell Your Property</title>
+    <link rel="stylesheet" href="SellStyle.css">
+    <link rel="stylesheet" href="SampleStyle.css">
+    <link rel="stylesheet" href="subImage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="heading">
+            <div class="logo-container">
+                <a href="#">
+                    <img src="ProjectImages/WhatsApp Image 2025-04-19 at 18.52.59_d69f62f7.jpg" alt="PropertyMan Logo" class="site-logo">
+                </a>
+                <label for="comlabel" id="comlabel">PROPERTYMAN</label>
+            </div>
+            <nav>
+                <input type="checkbox" id="menutoggle">
+                <label for="menutoggle" class="menubtn">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="close-icon"></span>
+
+                </label>
+                <ul class="navlinks">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Rent.html">RENT</a></li>
+                    <li><a href="Sell.html">SELL</a></li>
+                    <li><a href="FAA.html">FIND AN AGENT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="sell-container">
+        <h1 class="section-title">Sell Your Property</h1>
+        <p class="section-description">
+            Looking to sell your property? Let PROPERTYMAN help you connect with potential buyers. Fill out the form below to get started!
+        </p>
+
+        <form id="propertyForm" class="sell-form" action="sub.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="property-type">Property Type</label>
+                <select id="property-type" name="property-type" required>
+                    <option value="apartment">Apartment</option>
+                    <option value="villa">Villa</option>
+                    <option value="townhouse">Townhouse</option>
+                    <option value="land">Land</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="price">Asking Price</label>
+                <input type="number" id="price" name="price" placeholder="Enter asking price" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Property Description</label>
+                <textarea id="description" name="description" placeholder="Provide a brief description of your property" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="images">Upload Images (Max 10)</label>
+                <input type="file" id="images" name="images[]" accept="image/*" multiple>
+                <div id="image-preview"></div>
+            </div>
+            <button type="submit" class="submit-btn">Submit Property</button>
+        </form>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section Psearches">
+                <h3>Popular Searches</h3>
+                <ul>
+                    <li><a href="/homes-accra">Homes in Accra</a></li>
+                    <li><a href="/affordable-apartments">Affordable Apartments</a></li>
+                    <li><a href="/commercial-spaces">Commercial Spaces</a></li>
+                    <li><a href="/rent-to-own">Rent-to-Own Properties</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Site Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="index.html#contactUS">Contact Us</a></li>
+                    <li><a href="Ppolicy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+                    <li><i class="fas fa-phone"></i> +233 257 775 010</li>
+                    <li><i class="fas fa-envelope"></i> propertyman1.gh@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 propertyman. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61566902734439"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/PropertymanGh"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/propertyman.gh?igsh=ZjI0Nm9iMzdxb2I3"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@propertyman.gh?_t=ZM-8w51zaoLRvJ&_r=1"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/message/4G6RX3BDNODMD1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://youtube.com/@propertyman_gh?si=qEYj-RWyq0vaZgsV"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="property_form.js"></script> -->
+</body>
+</html>

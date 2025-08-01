@@ -1,0 +1,289 @@
+.property-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+  
+.gallery-container {
+    flex: 2;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-image-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#mainImage1,#mainImage2,#mainImage3,#mainImage4,#mainImage5,#mainImage6,#mainImage7,#mainImage8,#mainImage9,#mainImage10 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+.nav-btn,.nav-btn2,.nav-btn3,.nav-btn4,.nav-btn5,.nav-btn6,.nav-btn7,.nav-btn8,.nav-btn9,.nav-btn10 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.nav-btn:hover,.nav-btn2:hover,.nav-btn3:hover,.nav-btn4:hover,.nav-btn5:hover,.nav-btn6:hover,.nav-btn7:hover,.nav-btn8:hover,.nav-btn9:hover,.nav-btn10:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#prevBtn,#prevBtn2,#prevBtn3,#prevBtn4,#prevBtn5,#prevBtn6,#prevBtn7,#prevBtn8,#prevBtn9,#prevBtn10 {
+    left: 15px;
+}
+
+#nextBtn,#nextBtn2,#nextBtn3,#nextBtn4,#nextBtn5,#nextBtn6,#nextBtn7,#nextBtn8,#nextBtn9,#nextBtn10 {
+    right: 15px;
+}
+
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.thumbnail,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.thumbnail:hover,.thumbnail2:hover,.thumbnail3:hover,.thumbnail4:hover,.thumbnail5:hover,.thumbnail6:hover,.thumbnail7:hover,.thumbnail8:hover,.thumbnail9:hover,.thumbnail10:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.thumbnail.active1,
+.thumbnail2.active2,.thumbnail3.active3,
+.thumbnail4.active4,.thumbnail5.active5,.thumbnail6.active6,.thumbnail7.active7,.thumbnail8.active8,.thumbnail9.active9,.thumbnail10.active10 {
+    border: 3px solid #3498db;
+}
+
+/* .thumbnail.active1,
+.thumbnail2.active2,.thumbnail2.active3,
+.thumbnail2.active4,.thumbnail2.active5,.thumbnail2.active6,.thumbnail2.active7,.thumbnail2.active8,.thumbnail2.active9,.thumbnail2.active10 {
+    border: 3px solid #3498db;
+} */
+
+/* Property Features */
+.property-features {
+    margin-bottom: 2rem;
+}
+
+.property-features h3 {
+    color: #000;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.features-list li:last-child {
+    border-bottom: none;
+}
+
+.feature-icon {
+    color: #ff8c00;
+    margin-right: 1rem;
+    width: 20px;
+    text-align: center;
+}
+
+/* Location Map */
+.property-location h3 {
+    color: #000;
+    border-bottom: 2px solid #ff8c00;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.map-container {
+    height: 300px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.location-details {
+    margin-top: 1rem;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+.highlight {
+    color: #ff8c00;
+    font-weight: 600;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.pagination a {
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #fff;
+    border: 1px solid #ff8c00;
+    transition: background-color 0.3s, color 0.3s;
+}
+.pagination a:hover {
+    background-color: #ff8c00;
+    color: #fff;
+}
+/* .pagination a{
+    color: green;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.pagination a:hover{
+    color: #fff;
+    background-color: #ff8c00;
+    border-radius: 5px;
+} */
+/* Footer */
+.main-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 0 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #ff8c00;
+}
+
+.footer-section.about p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+.footer-section.links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section.links a:hover {
+    color: #ff8c00;
+}
+
+.footer-bottom {
+    background-color: #000;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff8c00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .property-container {
+        flex-direction: column;
+    }
+
+    #mainImage,#mainImage2,#mainImage3,#mainImage4,#mainImage5,#mainImage6,#mainImage7,#mainImage8,#mainImage9,#mainImage10 {
+        height: 350px;
+    }
+
+    .thumbnail-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-section h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
